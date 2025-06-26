@@ -1,46 +1,36 @@
-# 💧 Drink Water Reminder 🚰
+# 💧 Drink Water Reminder Web App
 
-Stay hydrated and healthy with this simple **Drink Water Reminder** app built using **Python** in a **Jupyter Notebook**. The project gently reminds users at regular intervals to drink water — helping to build a consistent hydration habit!
+A simple and effective **Drink Water Reminder** web application that sends **hourly notifications** to help users stay hydrated throughout the day. Built using **Python**, **Flask**, **HTML/CSS (Bootstrap)**, and tested initially with **Jupyter Notebook**.
 
----
-## 📌 Features
+## 🚀 Features
 
-- ⏰ Time-based reminders
-- 🔔 Notification or sound alert (optional)
-- 🧠 Easy-to-understand logic
-- 💻 Developed using Jupyter Notebook (for learning & demonstration)
-
----
+- 🕐 **Hourly desktop notifications** using `plyer`
+- 🌐 Web-based interface using **Flask**
+- 🎨 Clean, responsive UI built with **Bootstrap**
+- ⚙️ Simple and lightweight logic
+- ✅ Fully functional start button to activate reminders
 
 ## 🛠️ Tech Stack
 
-- **Python 3.x**
-- **Jupyter Notebook**
-- `time` module
-- `plyer` for notification (optional)
+- **Frontend:** HTML5, CSS3, Bootstrap  
+- **Backend:** Python, Flask  
+- **Notifications:** `plyer` module  
+- **IDE & Tools:** Jupyter Notebook (initial testing), Visual Studio Code
 
----
+## 🧪 Development Journey
 
-## 🧪 How It Works
-
-1. User sets a time interval for reminders.
-2. Script runs in a loop and reminds the user when it's time to drink water.
-3. Can optionally use audio or desktop notifications.
-
----
-
-## ▶️ How to Run
-
-1. Clone this repository or download the `.ipynb` file.
-2. Open it using Jupyter Notebook or JupyterLab.
-3. Run the notebook cells one by one.
-4. Stay hydrated! 💦
+1. **Started with Jupyter Notebook** to test the `plyer` module for sending desktop notifications.
+2. **Integrated Flask** for backend functionality.
+3. **Created frontend UI** using HTML, CSS, and Bootstrap.
+4. Developed a **responsive webpage** that triggers hourly hydration reminders with a click of the “Start” button.
 
 ---
 ## 📸 Screenshots
+![Screenshot 2025-06-26 164218](https://github.com/user-attachments/assets/81438c26-c29c-44b7-a8c7-1705e24d1549)
+![Screenshot 2025-06-26 163430](https://github.com/user-attachments/assets/c4b98de2-2594-49c1-a137-7128409b58c0)
+![Screenshot 2025-06-26 170458](https://github.com/user-attachments/assets/22f96938-120d-4a39-aafc-97f0c90b3fb1)
 ![Screenshot 2025-06-22 163215 1](https://github.com/user-attachments/assets/d8772c39-113c-4d58-b0a0-18e53701eaa7)
 
-![Screenshot 2025-06-22 164606](https://github.com/user-attachments/assets/f1d912be-0340-4401-bce7-b9bb66a59c5a)
 
 ---
 ## 💡 Example Code Snippet
