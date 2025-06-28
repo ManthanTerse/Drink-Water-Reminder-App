@@ -9,7 +9,7 @@ while(True):
     print("Please sip some water!")
     notification.notify(title="Drink Water",
              message="You have to take a sip of water")
-    time.sleep(60)
+    time.sleep(60 * 60)
 
 app = Flask(__name__)
 
