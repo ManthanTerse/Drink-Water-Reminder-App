@@ -1,6 +1,6 @@
 # 💧 Drink Water Reminder Web App
 
-A simple and effective **Drink Water Reminder** web application that sends **hourly notifications** to help users stay hydrated throughout the day. Built using **Python**, **Flask**, **HTML/CSS (Bootstrap)**, and tested initially with **Jupyter Notebook**.
+A simple and effective **Drink Water Reminder** web application that sends **hourly notifications** to help users stay hydrated throughout the day. Built using **Python**, **Flask**, **HTML/CSS (Bootstrap)** and tested initially with **Jupyter Notebook**.
 
 ## 🚀 Features
 
