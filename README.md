@@ -1,58 +1,74 @@
-# 💧 Drink Water Reminder Web App
+# 💧 Drink Water Reminder (Flask Project)
 
-A simple and effective **Drink Water Reminder** web application that sends **hourly notifications** to help users stay hydrated throughout the day. Built using **Python**, **Flask**, **HTML/CSS (Bootstrap)** and tested initially with **Jupyter Notebook**.
-
-## 🚀 Features
-
-- 🕐 **Hourly desktop notifications** using `plyer`
-- 🌐 Web-based interface using **Flask**
-- 🎨 Clean, responsive UI built with **Bootstrap**
-- ⚙️ Simple and lightweight logic
-- ✅ Fully functional start button to activate reminders
-
-## 🛠️ Tech Stack
-
-- **Frontend:** HTML5, CSS3, Bootstrap  
-- **Backend:** Python, Flask  
-- **Notifications:** `plyer` module  
-- **IDE & Tools:** Jupyter Notebook (initial testing), Visual Studio Code
-
-## 🧪 Development Journey
-
-1. **Started with Jupyter Notebook** to test the `plyer` module for sending desktop notifications.
-2. **Integrated Flask** for backend functionality.
-3. **Created frontend UI** using HTML, CSS, and Bootstrap.
-4. Developed a **responsive webpage** that triggers hourly hydration reminders with a click of the “Start” button.
+## 📌 Project Overview
+The **Drink Water Reminder** is a Flask-based mini project developed using Python and web technologies.  
+It helps users maintain healthy hydration habits by sending periodic water reminder notifications.  
+The project provides a simple web interface to start and stop reminders.
 
 ---
-## 📸 Screenshots
 
-![Screenshot 2025-06-22 164848](https://github.com/user-attachments/assets/282d2fad-aca0-4acd-9ef2-b6bb6a63a260)
-![Screenshot 2025-06-26 170258](https://github.com/user-attachments/assets/b1ffcabd-268d-4cb3-9806-02835f2fbc0f)
-![Screenshot 2025-06-26 163430](https://github.com/user-attachments/assets/c4b98de2-2594-49c1-a137-7128409b58c0)
-![Screenshot 2025-06-26 170458](https://github.com/user-attachments/assets/22f96938-120d-4a39-aafc-97f0c90b3fb1)
-![Screenshot 2025-06-22 163215 1](https://github.com/user-attachments/assets/d8772c39-113c-4d58-b0a0-18e53701eaa7)
-
+## 🎯 Objectives
+- To remind users to drink water at regular intervals  
+- To demonstrate the use of the Flask framework  
+- To implement background task execution using threading  
+- To build a simple and interactive web application  
 
 ---
-## 💡 Example Code Snippet
 
-```python
-import time
-while True:
-    print("Please sip some water!")  
-    time.sleep(6)
+## 🛠️ Technologies Used
+- Python – Backend logic  
+- Flask – Web framework  
+- HTML – Web page structure  
+- CSS & Bootstrap – Styling and responsive design  
+- JavaScript – Client-side interaction  
+- Threading (Python) – Background execution of reminders  
+- Plyer – Desktop notifications  
+
+---
+
+## ✨ Features
+- Start and stop water reminders using a web interface  
+- Desktop notifications at fixed time intervals  
+- Background execution without blocking the server  
+- Simple and user-friendly UI  
+
+---
+
+## 📂 Project Structure
+drink-water-reminder/<br>
+│<br>
+├── app.py<br>
+├── requirements.txt<br>
+├── templates/<br>
+│   └── index.html<br>
+└── static/<br>
+    └── style.css<br>
+
+---
+
+⚠️ Important Note
+- Desktop notifications using plyer work only on local machines
+- When deployed online, notification functionality will not work due to server limitations
+
+---
+
+## ▶️ How to Run the Project Locally
+
+# 1️⃣ Install Required Libraries
+```bash
+pip install flask plyer
+```
+# 2️⃣ Run the Flask App
+```
+python app.py
+```
+# 3️⃣ Open in Browser
+```
+http://127.0.0.1:5000/
 ```
 
----
-## 💼 Connect with Me
+## Desktop notifications work only when the project is run locally using the Plyer module. They do not work after deployment. Sorry for the inconvenience caused.
 
-<a href="https://www.linkedin.com/in/manthanterse/">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
-</a>
-<a href="mailto:tersemanthan2006@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
 
----
+
 
