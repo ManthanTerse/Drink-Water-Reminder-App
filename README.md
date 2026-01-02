@@ -60,21 +60,20 @@ pip install flask plyer
 ```
 # 2️⃣ Run the Flask App
 ```
-python app.py
+python main.py
 ```
 # 3️⃣ Open in Browser
 ```
 http://127.0.0.1:5000/
 ```
-
-
 ---
 
 # Screenshots :
 <img width="1919" height="900" alt="Screenshot 2026-01-02 221536" src="https://github.com/user-attachments/assets/5dc72dc1-b01c-4489-80c9-f1d2b97b0241" />
 <img width="1919" height="904" alt="Screenshot 2026-01-02 221607" src="https://github.com/user-attachments/assets/f5d9be16-d1fc-44d2-8366-c469576fc08a" />
-<img width="794" height="569"  align = "center" alt="Screenshot 2026-01-02 221624" src="https://github.com/user-attachments/assets/dba5c37a-edf1-4969-a6cb-850d14d6207d" />
-
+<p align="center">
+<img width="794" height="569"  alt="Screenshot 2026-01-02 221624" src="https://github.com/user-attachments/assets/dba5c37a-edf1-4969-a6cb-850d14d6207d" />
+</p>
 ---
 
 ## Desktop notifications work only when the project is run locally using the Plyer module. They do not work after deployment. Sorry for the inconvenience caused.
